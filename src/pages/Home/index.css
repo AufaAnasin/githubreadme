@@ -1,0 +1,45 @@
+.container-fluid.home {
+    background-image: url('../../components/img/bg-2.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100vh;
+}
+
+.row.logo img {
+    width: 250px;
+    height: 250px;
+}
+
+.row.logo {
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maincopywriting {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 3vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .row.logo {
+        margin: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .row.logo img {
+        width: 250px;
+        height: 250px;
+    }
+    .maincopywriting {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 1vh;
+    }
+}
+

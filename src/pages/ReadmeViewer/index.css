@@ -1,0 +1,25 @@
+.container-fluid.readme {
+    padding-top: 16px;
+    background-color: #0d1117;
+    height: 100vh;
+}
+
+.card.content {
+    background-color: #0d1117;
+    border-color: white;
+    color: white;
+}
+
+.card-header {
+    color: white;
+}
+
+.card.content button {
+    width: 70px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+    margin-left: 16px;
+}

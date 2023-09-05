@@ -1,0 +1,64 @@
+.card.repo {
+    padding: 20px;
+    margin-bottom: 16px;
+    border-color: #0366d6;
+    background-color: #0d1117;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-little {
+    border: 1px solid #c9d1d9;
+    width: 55px;
+    height: 30px;
+    padding-top: 15px;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    overflow-y: hidden;
+}
+
+.daterepo {
+    color: #8b949e;
+    font-size: 12px;
+}
+
+.card-little p {
+    font-size: 11px;
+    color: #c9d1d9;
+}
+
+.descriptionrepo {
+    width: 50vh;
+}
+
+.namepublicwrapper {
+    display: flex;
+}
+
+.buttonpublicwrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.buttonpublicwrapper button {
+    margin-top: 16px;
+}
+
+@media only screen and (max-width: 420px) {
+    .card.repo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .descriptionrepo {
+        width: 40vh;
+    }
+    
+    
+}

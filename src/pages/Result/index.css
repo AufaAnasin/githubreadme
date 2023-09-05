@@ -1,0 +1,9 @@
+.result {
+    padding-top: 16px;
+    background-color: #0d1117;
+    height: 100vh;
+}
+
+.row.result button {
+    margin-bottom: 10px;
+}

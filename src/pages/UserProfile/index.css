@@ -1,0 +1,26 @@
+.container-fluid.userprofile {
+    background-color: #0d1117;
+    height: 100vh;
+}
+
+.copywriting-userprofile {
+    color: white;
+    margin-top: 24px;
+}
+
+.copywriting-userprofile h5 {
+    color: #c9d1d9;
+    margin-top: 24px;
+}
+
+.copywriting-userprofile button {
+    margin-bottom: 16px;
+}
+
+@media only screen and (max-width: 420px) {
+    .copywriting-userprofile h5 {
+        color: #c9d1d9;
+        margin-top: 24px;
+        font-size: 16px;
+    }
+  }

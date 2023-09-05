@@ -1,0 +1,33 @@
+.card.user {
+    padding: 20px;
+    margin-bottom: 16px;
+    border-color: #0366d6;
+    background-color: #0d1117;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.user-wrapper {
+    display: flex;
+    align-items: center;
+}
+.user-wrapper h5 {
+    margin-top: 5px;
+}
+
+.user-wrapper img {
+    max-width: 100%;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 90px;
+}
+
+@media only screen and (max-width: 420px) {
+    .user-wrapper h5 {
+        font-size: 16px;
+        width: 90px;
+    }
+}
