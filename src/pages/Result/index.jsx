@@ -35,8 +35,8 @@ function Result() {
     <div className="container-fluid result">
         <div className="container">
             <div className="row result">
-                <button onClick={goBack} type="button" className="btn btn-dark">Back to user search</button>
                 <div className="col item">
+                <button onClick={goBack} type="button" style={{width: "70px", height: "40px"}} className="btn btn-dark">Back</button>
                     {data.map((item) => (
                         <>
                             <UserCard login={item.login} avatar={item.avatar_url} gotouser={() => goToUser(item.login)} />
